@@ -1,0 +1,37 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+
+<!-- Inicio del servidor: -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reto Drop Zone</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<!-- 2.	Elemento body: -->
+<body>
+  <header>
+    <h1 class="neon">Fundación Esplai Hackathon '23 - Reto Frontend</h1>
+  </header>
+
+  <div class="container slide-top">
+    <div id="drop_zone">
+      Arrastra y suelta tus archivos aquí
+      <p class="lines-effect">o</p>
+      <label for="file_input" id="file_label">selecciona archivos</label>
+      <input id="file_input" type="file" multiple>
+    </div>
+  </div>
+  
+  <div >
+    <ul id="output_uploads"></ul>
+  </div>
+
+  <!-- 3.	Archivo JavaScript: -->
+  <script src="upload.js"></script>
+</body>
+</html>
+
