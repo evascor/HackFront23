@@ -8,3 +8,13 @@
 
 ## Drag&amp;Drop
 
+```
+npm init -y
+npm install express multer
+```
+
+Start the server at port 3000.
+```
+node .
+```
+
